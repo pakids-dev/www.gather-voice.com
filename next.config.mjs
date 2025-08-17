@@ -17,7 +17,6 @@ const nextConfig = {
   },
   experimental: {
     forceSwcTransforms: true,
-    optimizeCss: true,
   },
   compress: true,
   poweredByHeader: false,
