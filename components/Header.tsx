@@ -33,15 +33,12 @@ export default function Header() {
           <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">
             {t("pricing")}
           </a>
-          <a href="#testimonials" className="text-muted-foreground hover:text-foreground transition-colors">
-            {t("testimonials")}
-          </a>
         </nav>
 
         <div className="flex items-center space-x-4">
           <Button variant="ghost" size="sm" onClick={toggleLanguage} className="flex items-center gap-2">
             <Globe className="h-4 w-4" />
-            {language === "en" ? "한" : "EN"}
+            {language === "en" ? "KO" : "EN"}
           </Button>
           <Button variant="ghost" className="hidden md:inline-flex">
             {t("signIn")}

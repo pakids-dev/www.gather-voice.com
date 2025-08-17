@@ -8,13 +8,19 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-grotesk" })
 
 export const metadata: Metadata = {
-  title: "FeatureVote - Let Your Customers Vote on Features",
+  title: "GatherVoice - Keep listening to your customers",
   description:
-    "Transform customer feedback into actionable insights. Prioritize features based on real user demand and build products your customers actually want.",
-  keywords: "feature voting, customer feedback, product roadmap, user voting, feature requests",
-  authors: [{ name: "FeatureVote" }],
+    "GatherVoice is a platform that helps you keep listening to your customers. It's a platform that helps you collect feedback from your customers and use it to improve your product.",
+  keywords: "customer feedback, product roadmap, user voting, feature requests, customer feedback, product roadmap, user voting, feature requests",
+  authors: [{ name: "GatherVoice" }],
   viewport: "width=device-width, initial-scale=1",
-    generator: 'v0.app'
+  generator: 'v0.app',
+  icons: {
+    icon: [
+      { url: '/favicon/favicon.ico', sizes: 'any' }
+    ],
+    
+  }
 }
 
 export default function RootLayout({

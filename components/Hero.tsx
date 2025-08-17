@@ -26,9 +26,6 @@ export default function Hero() {
               {t("startTrial")}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline" className="px-8 py-3 bg-transparent">
-              {t("watchDemo")}
-            </Button>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
