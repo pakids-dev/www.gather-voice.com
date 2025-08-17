@@ -22,17 +22,6 @@ export default function Footer() {
             <p className="text-muted-foreground mb-4 max-w-md leading-relaxed">
               {t("footerDescription")}
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                {t("twitter")}
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                {t("linkedin")}
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                {t("github")}
-              </a>
-            </div>
           </div>
 
           <div>

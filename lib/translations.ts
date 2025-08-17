@@ -115,16 +115,11 @@ export const translations = {
     privacyPolicy: "Privacy Policy",
     termsOfService: "Terms of Service",
     allRightsReserved: "© 2025 GatherVoice. All rights reserved.",
-    twitter: "Twitter",
-    linkedin: "LinkedIn",
-    github: "GitHub",
     
     // CTA Section
     ctaTitle: "Ready to Build Customer-Requested Features?",
     ctaSubtitle: "Join thousands of product teams who collect feature requests from customers and build based on real demand.",
     startFreeTrial: "Start Free Today",
-    scheduleDemo: "See a Demo",
-    ctaDisclaimer: "No credit card required • 14-day free trial • Cancel anytime",
   },
   ko: {
     // Header
@@ -242,16 +237,11 @@ export const translations = {
     privacyPolicy: "개인정보처리방침",
     termsOfService: "이용약관",
     allRightsReserved: "© 2025 GatherVoice. All rights reserved.",
-    twitter: "트위터",
-    linkedin: "링크드인",
-    github: "깃허브",
     
     // CTA Section
     ctaTitle: "고객 아이디어로 제품 만들기",
     ctaSubtitle: "이미 수천 팀이 고객 제안을 받아서 성공하는 제품을 만들고 있어요. 추측 대신 고객 목소리로 개발해보세요.",
     startFreeTrial: "무료로 시작하기",
-    scheduleDemo: "데모 보기",
-    ctaDisclaimer: "카드 등록 없음 • 14일 무료 • 언제든 해지",
   },
 } as const
 

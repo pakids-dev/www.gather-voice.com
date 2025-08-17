@@ -27,18 +27,7 @@ export default function CTA() {
               {t("startFreeTrial")}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 px-8 py-3 bg-transparent"
-            >
-              {t("scheduleDemo")}
-            </Button>
           </div>
-
-          <p className="text-sm text-primary-foreground/70 mt-6">
-            {t("ctaDisclaimer")}
-          </p>
         </div>
       </div>
     </section>

@@ -37,20 +37,16 @@ export default function HowItWorks() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {steps.map((step, index) => (
-            <div key={index} className="flex flex-col items-center text-center">
-              <Card className="bg-card border-border mb-6 w-full">
-                <CardContent className="p-8">
+            <div key={index} className="flex flex-col items-center text-center h-full">
+              <Card className="bg-card border-border mb-6 w-full h-full">
+                <CardContent className="p-8 h-full flex flex-col">
                   <div className="bg-primary/10 p-4 rounded-full w-fit mx-auto mb-4">
                     <step.icon className="h-8 w-8 text-primary" />
                   </div>
                   <h3 className="text-xl font-semibold text-card-foreground mb-3">{t(step.titleKey)}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{t(step.descriptionKey)}</p>
+                  <p className="text-muted-foreground leading-relaxed flex-grow">{t(step.descriptionKey)}</p>
                 </CardContent>
               </Card>
-
-              {index < steps.length - 1 && (
-                <ArrowRight className="hidden md:block h-6 w-6 text-primary absolute transform translate-x-32" />
-              )}
             </div>
           ))}
         </div>
