@@ -5,6 +5,7 @@ import { useTranslation } from "@/hooks/useTranslation"
 
 export default function Footer() {
   const { t } = useTranslation()
+
   return (
     <footer className="bg-card border-t border-border py-12 px-4">
       <div className="container mx-auto">
@@ -77,8 +78,14 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-border mt-8 pt-8 text-center">
-          <p className="text-muted-foreground">{t("allRightsReserved")}</p>
+        {/* 회사 정보 섹션 */}
+        <div className="border-t border-border mt-8 pt-8">
+          <div className="text-center space-y-2">
+            <div className="text-sm text-muted-foreground whitespace-pre-line">
+              {t("companyInfo")}
+            </div>
+            <p className="text-muted-foreground mt-4">{t("copyright")}</p>
+          </div>
         </div>
       </div>
     </footer>

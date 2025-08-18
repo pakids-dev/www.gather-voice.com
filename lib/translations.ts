@@ -34,8 +34,8 @@ export const translations = {
     
     // Hero Section
     heroTitle: "Are You Building What",
-    heroTitleHighlight: " Customers Actually Want",
-    heroTitleEnd: "?",
+    heroTitleHighlight: " Customers Actually",
+    heroTitleEnd: "Want?",
     heroSubtitle: "Let customers suggest features they need and vote on what matters most. Stop guessing what to build next and start creating products based on real customer demand.",
     startTrial: "Start Free Today",
     customerEngagement: "Customer-Driven Features",
@@ -115,6 +115,9 @@ export const translations = {
     privacyPolicy: "Privacy Policy",
     termsOfService: "Terms of Service",
     allRightsReserved: "© 2025 GatherVoice. All rights reserved.",
+    companyInfo: "CEO: Jaemin Ahn | Business Registration: 333-10-02879\nHQ Office: 3F 302-337ho, 21 Jungsan-jungang-ro, Wansan-gu, Jeonju-si, Jeollabuk-do\nPhone: 010-3255-4653 | Email: contact@pakids.team",
+copyright: "© 2025 Pakids Co. All right reserved.",
+
     
     // CTA Section
     ctaTitle: "Ready to Build Customer-Requested Features?",
@@ -156,17 +159,17 @@ export const translations = {
     
     // Hero Section
     heroTitle: "정말",
-    heroTitleHighlight: " 고객이 원하는 제품 ",
-    heroTitleEnd: "을 만들고 있나요?",
+    heroTitleHighlight: " 고객이 원하는 제품을",
+    heroTitleEnd: "만들고 있나요?",
     heroSubtitle: "고객이 직접 기능을 제안하고 투표할 수 있게 하세요. 어떤 기능이 진짜 필요한지 확실히 알 수 있어요. 추측 대신 고객 목소리로 로드맵을 만들어보세요.",
     startTrial: "무료로 시작하기",
     customerEngagement: "고객이 직접 제안",
-    customerEngagementDesc: "원하는 기능을 고객이 직접 올릴 수 있어요",
+    customerEngagementDesc: "원하는 기능을 고객이\n직접 올릴 수 있어요",
     dataDrivenDecisions: "우선순위가 명확해짐",
-    dataDrivenDecisionsDesc: "투표로 어떤 기능부터 만들지 바로 알 수 있어요",
+    dataDrivenDecisionsDesc: "투표로 어떤 기능부터\n만들지 바로 알 수 있어요",
     betterProducts: "성공하는 제품",
-    betterProductsDesc: "고객이 진짜 원하는 기능만 골라서 개발하세요",
-    
+    betterProductsDesc: "고객이 진짜 원하는\n기능만 골라서 개발하세요",
+        
     // Features Section
     featuresTitle: "고객 아이디어를 어떻게 모으고 계신가요?",
     featuresSubtitle: "고객이 직접 기능을 제안하고 투표할 수 있는 공간을 만들어보세요.",
@@ -174,13 +177,13 @@ export const translations = {
     easyVotingDesc: "고객이 원하는 기능을 직접 추가하고, 다른 사람들이 투표할 수 있어요.",
     realTimeAnalyticsTitle: "인기 기능 바로 확인",
     realTimeAnalyticsDesc: "어떤 기능 제안이 뜨고 있는지, 투표수 변화를 실시간으로 봐요.",
-    smartNotificationsTitle: "새 제안 놓치지 않기",
+    smartNotificationsTitle: "새로운 제안 놓치지 않기",
     smartNotificationsDesc: "고객이 새 기능을 제안하거나 투표가 급증하면 바로 알려드려요.",
     securePrivateTitle: "안전한 아이디어 보관",
     securePrivateDesc: "소중한 고객 아이디어와 피드백을 안전하게 보관해드려요.",
     quickSetupTitle: "5분이면 완성",
     quickSetupDesc: "복잡한 설정 없이 고객이 바로 기능 제안할 수 있는 보드를 만들어요.",
-    teamCollaborationTitle: "팀 모두 같은 정보",
+    teamCollaborationTitle: "팀 전부 같은 정보 공유",
     teamCollaborationDesc: "어떤 기능 제안이 들어왔는지 팀 전체가 실시간으로 확인하세요.",
     
     // How It Works Section
@@ -194,7 +197,7 @@ export const translations = {
     analyzeResultsDesc: "투표 결과를 보고 고객이 가장 원하는 기능부터 개발하세요.",
     
     // Pricing Section
-    pricingTitle: "가격 투명해요",
+    pricingTitle: "합리적인 가격",
     pricingSubtitle: "팀에 맞는 플랜을 고르세요. 14일 무료 체험 가능해요.",
     starterPlan: "스타터",
     professionalPlan: "프로",
@@ -237,6 +240,11 @@ export const translations = {
     privacyPolicy: "개인정보처리방침",
     termsOfService: "이용약관",
     allRightsReserved: "© 2025 GatherVoice. All rights reserved.",
+
+    companyInfo: "대표자: 안재민 | 사업자등록번호: 333-10-02879\nHQ 오피스: 전북특별자치도 전주시 완산구 중산중앙로 21, 3층 302-337호(중화산동2가)\n대표번호: 010-3255-4653 | 이메일: contact@pakids.team",
+    copyright: "© 2025 Pakids Co. All right reserved.",
+
+
     
     // CTA Section
     ctaTitle: "고객 아이디어로 제품 만들기",
